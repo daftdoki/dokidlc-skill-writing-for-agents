@@ -1,0 +1,9 @@
+{
+  "name": "writing-for-agents",
+  "description": "Writing documents for agents: skills, AGENTS.md, CLAUDE.md, and any document an agent reads. Matt Pocock's skill, vendored.",
+  "author": {
+    "name": "DaftDoki"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/daftdoki/dokidlc-skill-writing-for-agents"
+}
