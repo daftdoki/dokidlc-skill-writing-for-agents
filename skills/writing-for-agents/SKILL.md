@@ -1,6 +1,6 @@
 ---
 name: writing-for-agents
-description: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.
+description: "Writing any text a model will read and act on later: a SKILL.md and its description line, CLAUDE.md or AGENTS.md, a `.claude/agents` subagent or slash command file, the text a hook prints into context, a docs page that CLAUDE.md points at, a system prompt, or a prompt sent through the API. Load it before the first line is written whenever one of these is drafted, rewritten, split into references, reviewed for what to cut, or built from a workflow just finished, and when the ask is only to fix a description that fires unreliably or a prompt the model keeps misreading. The test is who reads the result: a model, not a person."
 ---
 
 Reference for writing any document an agent consumes: a skill, an `AGENTS.md` / `CLAUDE.md`, a doc reached by a pointer. The packaging differs; the writing does not: the same levers make each one predictable, since the agent takes the same _process_ every run rather than producing the same output.

@@ -7,9 +7,11 @@ two loads, the information hierarchy, completion criteria, leading words,
 and pruning.
 
 The text is Matt Pocock's, from
-[mattpocock/skills](https://github.com/mattpocock/skills), vendored
-unchanged at the commit named in `SOURCE.md`. MIT, his copyright, in
-`LICENSE`.
+[mattpocock/skills](https://github.com/mattpocock/skills), vendored at
+the commit named in `SOURCE.md`. MIT, his copyright, in `LICENSE`. One
+local edit: the `description` line in `SKILL.md`, rewritten on
+2026-09-20 so the skill fires on every kind of model-facing text, not
+only skills and CLAUDE.md. Upstream pulls merge under it.
 
 ## Install
 
@@ -27,7 +29,7 @@ or an agent-facing document.
 
 ```
 scripts/upstream check     upstream commits since the pin, and the diff
-scripts/upstream pull      replace the files with upstream HEAD, move the pin
+scripts/upstream pull      merge upstream changes under the local edits, move the pin
 ```
 
 Both need `gh` logged in. After `pull`, review the diff and commit.
